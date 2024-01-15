@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+.na{
+    height: 17vh;
+}
+.navbar-brand{
+    width: 30%;
+    text-align: center;
+    color: white ;
+    font-family: font1;
+    padding-right: 120px;
+    padding-top: 0px;
+    font-size:18px;
+    letter-spacing: 1px;
+}
+
+.nav-item a{
+    color: white;
+    margin-left: 17px;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: font1-bold;
+    src: url(../fonts/static/Montserrat-ExtraBold.ttf);
+}
+
+
+
+.p1{
+    height: 100vh;
+    width: 100%;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)) , url(../photos/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.overlay h3{
+    font-family: font1-bold;
+    font-size: 50px;
+}
+.overlay p::after{
+    content: "";
+    animation: typing 10s alternate infinite;
+
+}
+
+@keyframes typing {
+    0%{content: "Larry Daniel"; }
+    5%{content: "Larry Danie"; }
+    7%{content: "Larry Dani"; }
+    9%{content: "Larry Dan"; }
+    10%{content: "Larry Da"; }
+    12%{content: "Larry D"; }
+    14%{content: "Larry "; }
+    15%{content: "Larr "; }
+    16%{content: "Lar "; }
+    18%{content: "La "; }
+    20%{content: "L "; }
+    22%{content: " "; }
+    24%{content: "D "; }
+    26%{content: "De "; }
+    28%{content: "Dev "; }
+    30%{content: "Deve "; }
+    32%{content: "Devel "; }
+    34%{content: "Develo "; }
+    36%{content: "Develop "; }
+    38%{content: "Develope "; }
+    40%{content: "Developer "; }
+    42%{content: "Develope "; }
+    44%{content: "Develop "; }
+    46%{content: "Develo "; }
+    48%{content: "Devel "; }
+    50%{content: "Deve "; }
+    52%{content: "Dev "; }
+    54%{content: "De "; }
+    56%{content: "D "; }
+    58%{content: " "; }
+    61%{content: "D "; }
+    63%{content: "De "; }
+    66%{content: "Des "; }
+    69%{content: "Desi "; }
+    72%{content: "Desig "; }
+    74%{content: "Design "; }
+    76%{content: "Designe "; }
+    78%{content: "Designer "; }
+    80%{content: "Designe "; }
+    82%{content: "Design "; }
+    84%{content: "Design "; }
+    87%{content: "Desig "; }
+    90%{content: "Desi "; }
+    93%{content: "Des "; }
+    95%{content: "De "; }
+    97%{content: "D "; }
+    99%{content: " "; }
+
+}
+
+.icons i{
+    font-size: 20px;
+}
+
+
+/* p2 */
+
+.p2{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+}
+.photo1{
+    width: 150%;
+    margin-left: 50px;
+}
+.photo1 img{
+    width: 100%;
+}
+.content1{
+    height: 80vh;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+.content1 h2{
+    font-family: font1;
+    letter-spacing: 0px;
+    color: #343434;
+}
+
+.content1 p{
+    color: #748196;
+}
+.content1 p span{
+    font-family: font1-bold;
+}
+.bre{
+    width: 100%;
+    
+}
+.bre h6{
+    text-align: right;
+    margin-left: 490px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.bre h5{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.bre h4{
+    text-align: right;
+    margin-left: 265px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.bre h3{
+    text-align: right;
+    margin-left: 165px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.zrayr{
+    width: 100% ;
+    margin-top: 40px;
+}
+.zrayr button{
+width: 25%;
+height: 6vh;
+border-radius: 8px;
+}
+.zrayr .zrayr-1{
+    background-color: #1C1C1C;
+    color: white;
+
+}
+.zrayr .zrayr-1:hover{
+    background-color:white;
+    color: #1C1C1C;
+
+}
+.zrayr .zrayr-2{
+    background-color:white;
+    color: #1C1C1C;
+
+}
+.zrayr .zrayr-2:hover{
+    background-color: #1C1C1C;
+    color: white;
+
+}
+
+
+/* p3 */
+
+.p3{
+    width: 100%;
+    height: 150vh;
+    background-color: #F7F7F7;
+}
+.ser {
+    padding: 0px 0px;
+    padding-top: 70px;
+    width: 100%;
+    text-align: center;
+    
+}
+.ser h2{
+    font-family: font1-bold;
+    font-size: 40px;
+}
+
+.p3-con div{
+    background-color: white;
+    
+    margin-top: 30px;
+    padding: 50px 50px;
+    
+}
+
+.p3-con div h1{
+    margin: 15px 0px;
+    font-size: 18px;
+
+}
+
+.p3-con div p{
+    color: #343434;
+    font-size: 15px;
+}
+
+/* p4 */
+.p4{
+    width: 100%;
+    height: 100vh;
+}
+.gallery div div{
+    width: 25%;
+    display: flex;
+}
+.gallery div div img{
+    width: 100%;
+    
+}
+
+
+/* p5 */
+.p5{
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+.p5photo {
+    width: 70%;
+    margin: auto;
+    margin-top: -150px;
+    display: flex;
+    
+}
+.p5photo img{
+    border-radius: 50%;
+    width: 13%;
+    margin-bottom: 12px;
+}
+
+.p5photo p{
+    color: #748182;
+    font-size: 15px;
+    text-align: center;
+    
+    margin-bottom: 12px;
+}
+
+.p5photo h2{
+    font-size: 16px;
+    color: #343434;
+    text-align: center;
+    
+    margin-bottom: 12px;
+}
+
+.p5photo h3{
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+    
+    margin-bottom: 12px;
+}
+
+
+
+.p5-2{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+
+}
+
+.p5-q1{
+    text-align: center;
+    width: 22%;
+    
+}
+.p5-q2{
+    text-align: center;
+    width: 22%;
+}
+.p5-q3{
+    text-align: center;
+    width: 22%;
+}
+.p5-q4{
+    text-align: center;
+    width: 22%;
+}
+.p5-2-h2{
+    font-size: 30px;
+    font-family: font1-bold;
+}
+
+.p5-2-h3{
+    font-size: 15px;
+    color: #748182;
+}
+
+
+
+
+
+/* p6 */
+.p6{
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+.c1 h2{
+
+    font-size: 25px;
+    text-align: center;
+    color: white; 
+   
+}
+
+
+
+/* p7 */
+
+.p7{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+
+.p7-cont{
+    
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.p7-1{
+    height: 30vh;
+    display: flex;
+    margin-top: 50px;
+}
+.p7-ma{
+    width: 33.3%;
+    height: 100%;
+   
+    text-align: center;   
+}
+.p7-ma i{
+    border-radius: 50%;
+}
+.p7-ma h2{
+    font-size: 16px;
+    font-family: font1;
+}
+.p7-ma h3{
+    font-size: 15px;
+    color: #748182;
+}
+
+.inputss input{
+    background-color: #F4F4F4;
+    border: 0;
+}
+.zr{
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: 0;
+}
+/* ====================================== */
+.last{
+    margin-top: 100px;
+    height: 20vh;
+    background-color: #1C1C1C;
+    color: #748182;
+    text-align: center;
+    padding-top: 9vh;
+    font-size: 13px;
+}
